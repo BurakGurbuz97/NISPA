@@ -5,6 +5,9 @@
 
 ![NISPA](main_figure.png)
 
+## Paper
+https://arxiv.org/abs/2206.09117
+
 ## Code
 This code was implemented using Python 3.8 (Anaconda) on Ubuntu 20.04.
 
