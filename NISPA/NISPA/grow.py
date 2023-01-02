@@ -64,7 +64,7 @@ def flow_random(model, all_units, stable_indices):
     pos_connections = []
     bias_matrices = []
     layer_id = 0
-    for (important_src, important_tgt), (all_unit_src, all_unit_tgt) in zip( zip(important_indices[:-1], important_indices[1:]), zip (all_units[:-1], all_units[1:])):
+    for (important_src, important_tgt), (all_unit_src, all_unit_tgt) in zip( zip(stable_indices[:-1], stable_indices[1:]), zip (all_units[:-1], all_units[1:])):
         unimportant_tgt = list(set(list(range(all_unit_tgt))).difference(important_tgt)) 
         unimportant_src = list(set(list(range(all_unit_src))).difference(important_src)) 
         conn_type_1 = np.ones((w_masks[layer_id].shape[2], w_masks[layer_id].shape[3])) if len(w_masks[layer_id].shape) == 4 else 1
