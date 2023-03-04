@@ -1,3 +1,7 @@
+### This is the original repository of the ICML'22 paper. 
+
+### If you want to benchmark or experiment with NISPA, we have a more flexible repository: https://github.com/BurakGurbuz97/NISPA-Experimental.
+
 # NISPA: Neuro-Inspired Stability-Plasticity Adaptation for Continual Learning in Sparse Networks
 
 
